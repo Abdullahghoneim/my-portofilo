@@ -13,13 +13,13 @@ export default {
   data() {
     return {
       mySkills: [
+        "Own design, development, implementation, and maintenance of data intensive web applications from idea to production.",
         "Create functional website pages from designs with experience in developing cross-platform and cross-browser",
         "Develop well-structured, maintainable CSS/CSS3, jQuery, JavaScript and HTML/HTML5 to build out large-scale, responsive websites",
-        "have Experance with Vue.JS And Angular ",
+        "Develop efficient and quality source code (both client and server side) that delivers exceptional user experience",
         "Build reusable code and libraries for future use",
-        "Collaborate with product, back-end developers and web designers",
-        "Optimize application for maximum speed and scalability",
-        "Familiarity with back-end development using Node.js "
+        "Develop and deploy new features for the core applications. Explore and experiment with new technologies and frameworks to support and enhance existing applications and software architecture",
+        "Optimize application for maximum speed and scalability"
       ]
     };
   }

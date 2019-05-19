@@ -17,15 +17,7 @@
           <a class="nav-link" href="#">Home</a>
         </router-link>
         <router-link tag="li" to="/technologies" class="nav-item" class-active="active" exact>
-          <a
-            class="nav-link"
-            href="#"
-            data-container="body"
-            data-toggle="popover"
-            data-trigger="hover"
-            data-placement="bottom"
-            data-content="Most Technologies I Use"
-          >Technologies</a>
+          <a class="nav-link" href="#">Technical Skills</a>
         </router-link>
         <router-link tag="li" to="/myProjects" class="nav-item" class-active="active" exact>
           <a class="nav-link" href="#">Previous Projects</a>

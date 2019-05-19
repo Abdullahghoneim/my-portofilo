@@ -2,20 +2,24 @@
   <div>
     <h3>Most of Proud Projects</h3>
     <div class="mt-5 project">
-      <h5 class="font-weight-bold">Ocassion Today</h5>
-      <p class="mt-3">
-        Occasion Today is mobo app to manage supermarket owners to add occasion on those products and sell it
-        and for customers they can looking for occasion today in certain area
-      </p>
-      <router-link to="/project/occassionToday">
-        <a href class="btn btn-link font-weight-bold">More Info</a>
+      <router-link tag="div" to="/project/occassionToday">
+        <h5 class="font-weight-bold">Ocassion Today</h5>
+        <p class="mt-3">
+          Occasion Today is mobo app to manage supermarket owners to add occasion on those products and sell it
+          and for customers they can looking for occasion today in certain area
+        </p>
+        <router-link to="/project/occassionToday">
+          <a href class="btn btn-link font-weight-bold">More Info</a>
+        </router-link>
       </router-link>
     </div>
     <div class="mt-5 project">
-      <h5 class="font-weight-bold">ZoomZoom</h5>
-      <p>zoomZoom is E-Commerce mobile app to sell products with defiant category you can buy products and add products to your cart developed with ionic framework For Fron-End and Nodejs & mongo for restful api</p>
-      <router-link to="/project/zoomZoom">
-        <a href class="btn btn-link font-weight-bold">More Info</a>
+      <router-link tag="div" to="/project/zoomZoom">
+        <h5 class="font-weight-bold">ZoomZoom</h5>
+        <p>zoomZoom is E-Commerce mobile app to sell products with defiant category you can buy products and add products to your cart developed with ionic framework For Fron-End and Nodejs & mongo for restful api</p>
+        <router-link to="/project/zoomZoom">
+          <a href class="btn btn-link font-weight-bold">More Info</a>
+        </router-link>
       </router-link>
     </div>
     <div class="mt-5 project">
