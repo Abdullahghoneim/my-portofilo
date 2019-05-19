@@ -16,7 +16,6 @@
         <router-link tag="li" to="/" class="nav-item" class-active="active" exact>
           <a class="nav-link" href="#">Home</a>
         </router-link>
-
         <router-link tag="li" to="/technologies" class="nav-item" class-active="active" exact>
           <a
             class="nav-link"
@@ -28,13 +27,16 @@
             data-content="Most Technologies I Use"
           >Technologies</a>
         </router-link>
+        <router-link tag="li" to="/myProjects" class="nav-item" class-active="active" exact>
+          <a class="nav-link" href="#">Previous Projects</a>
+        </router-link>
         <router-link tag="li" to="/mySkills" class="nav-item" class-active="active" exact>
           <a class="nav-link" href="#">My Skills</a>
         </router-link>
         <router-link tag="li" to="/connectMe" class="nav-item" class-active="active" exact>
           <a class="nav-link" href="#">Connect to me</a>
         </router-link>
-        <button class="btn btn-outline-info">Download My CV</button>
+        <button class="btn btn-outline-info btn-sm download">Download My CV</button>
       </ul>
     </div>
   </nav>

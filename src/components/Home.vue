@@ -7,7 +7,7 @@
         src="https://practicaldev-herokuapp-com.freetls.fastly.net/assets/emoji/apple-waving-hand-879117f83d1834f4d34a708c196e2aa997c3c4f22c1194c62d6f996c98e06dd4.png"
       >
     </h3>
-    <p class="text-muted mt-3">Front-End Web Developer</p>
+    <p class="text-muted mt-3 text-capitalize">full stack web developer</p>
     <p class="text-muted mt-4">
       <i class="fas fa-map-marker-alt mr-2"></i>
       Egypt , Gharbia Governorate
@@ -17,7 +17,7 @@
       201060649873
     </p>
     <div class="mt-5">
-      <h5>Summary :</h5>
+      <h5 font-weight-bold>Summary :</h5>
       <p
         class="summary text-muted mt-4"
       >Versatile Full-stack Developer with 2+ years of experience developing, and managing complex e-commerce sites and internal frameworks. Specializes in Angular 4+ and ionic For Front-End And Node.js For Back End And mongoDB As well</p>

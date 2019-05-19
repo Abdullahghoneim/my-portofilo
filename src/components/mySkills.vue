@@ -3,7 +3,6 @@
     <h3>My Skills :</h3>
     <ul class="mt-5 list-group list-group-flush">
       <li class="list-group-item" v-for="skill in mySkills" :key="skill">
-        <i class="fas fa-angle-right"></i>
         <span class="ml-4`">{{skill}}</span>
       </li>
     </ul>
@@ -28,11 +27,18 @@ export default {
 </script>
 <style lang="scss" scoped>
 ul li {
+  font-weight: bold;
   font-size: 1.4rem;
   cursor: pointer;
   line-height: 3rem;
   margin: 0 20px;
   text-align: center;
   text-transform: capitalize;
+  transition: ease-in-out 1s;
+}
+ul li:hover {
+  transform: scale(1.1);
+  color: #17a2b8;
+  font-size: 1.5rem;
 }
 </style>

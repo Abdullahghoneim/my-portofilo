@@ -20,7 +20,6 @@ export default {
 </script>
 
 <style lang="scss">
-// @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 #app {
@@ -30,9 +29,16 @@ export default {
   font-family: "Ubuntu", sans-serif;
 }
 .view {
-  // border: 1px solid #d6d6d6;
-  padding: 5rem;
+  padding: 3rem;
   text-align: left;
   margin: 60px auto 20px;
+}
+.router-link-active {
+  font-weight: bold;
+}
+@media (min-width: 10rem) {
+  * {
+    font-size: 14px;
+  }
 }
 </style>
