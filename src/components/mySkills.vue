@@ -39,6 +39,5 @@ ul li {
 ul li:hover {
   transform: scale(1.1);
   color: #17a2b8;
-  font-size: 1.5rem;
 }
 </style>
