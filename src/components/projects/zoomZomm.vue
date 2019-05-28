@@ -6,10 +6,16 @@
       <h4>Description :</h4>
       <p
         class="text-muted mt-3"
-      >Occasion Today is mobo app to manage supermarket owners to add occasion on those products and sell it and for customers they can looking for occasion today in certain area</p>
+      >zoomZoom is E-Commerce mobile app to sell products with defiant category you can buy products and add products to your cart developed with ionic framework For Fron-End and Nodejs & mongo for restful api</p>
     </div>
     <div class="mt-3">
       <h4>Technologies Used in this Project</h4>
+      <ul>
+        <li>NodeJs</li>
+        <li>mongoDB</li>
+        <li>Ionic 4</li>
+        <li>PWA</li>
+      </ul>
     </div>
     <div class="text-center">
       <button
