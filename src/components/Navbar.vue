@@ -28,7 +28,12 @@
         <router-link tag="li" to="/connectMe" class="nav-item" class-active="active" exact>
           <a class="nav-link" href="#">Connect to me</a>
         </router-link>
-        <button class="btn btn-outline-info btn-sm download">Download My CV</button>
+        <button class="btn btn-outline-info btn-sm download">
+          <a
+            href="https://www.resume.com/share/abdulahmohammedghoneim"
+            target="balnk"
+          >Download My CV</a>
+        </button>
       </ul>
     </div>
   </nav>
@@ -41,6 +46,10 @@ nav {
     &:hover {
       border-bottom: black 1px solid;
     }
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
   }
 }
 </style>
